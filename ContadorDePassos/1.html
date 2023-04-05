@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Início:
+                <input type="number" name = "numMinimo" id = "numMinimo" min="0">
+            </p>
+            <p>Passo: 
+                <input type="number" name = "numPasso" id = "numPasso" min="0">   
+            </p>
+            <p>Final: 
+                <input type="number" name = "numFinal" id = "numFinal" min="0">   
+            </p>
+            <p> 
+                <input type="button" value = "contar" onclick="contar()">   
+            </p>
+        </div>
+        <div id="contagem">
+            <p>
+                preparando Contagem...
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; minha marca</p>
+    </footer>
+    <script src="scrpit.js"></script>
+</body>
+</html>
